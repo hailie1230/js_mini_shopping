@@ -5,6 +5,7 @@
   --color-white: #ffffff;
   --color-blue: #3b88c3;
   --color-yellow: #fbbe28;
+  --color-light-yellow: #fff3e0;
   --color-pink: #fd7f84;
   --color-light-grey: #dfdfdf;
 
@@ -27,7 +28,7 @@
 
 body {
   height: 100vh;
-  background-color: var(--color-gray);
+  background-color: var(--color-light-yellow);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +81,7 @@ body {
   list-style: none;
   padding-left: 0;
   overflow-y: scroll;
-  border: 3px solid var(--color-black);
+  border: 5px solid #ffe0b2;
   padding: var(--base-space);
 }
 .item {
@@ -97,4 +98,8 @@ body {
 .item__description {
   margin-left:  var(--base-space);
   font-size: var(--font-size);
+}
+
+.invisible {
+  display: none;
 }
